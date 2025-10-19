@@ -1,0 +1,91 @@
+
+   .leaderboard-container {
+    background-color: #3d1273;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .player-card {
+    background-color: #5a1ba3;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .player-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid gold;
+  }
+  
+  .score {
+    color: #00cfff;
+    font-weight: bold;
+  }
+  
+  .all-players {
+    background-color: #51208b;
+    border-radius: 15px;
+    padding: 15px;
+    flex: 1; /* ממלא את כל השטח הפנוי */
+    overflow-y: auto; /* מאפשר גלילה */
+  }
+  
+  .all-players h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #51208b;
+    padding: 5px 0;
+    z-index: 1;
+  }
+  
+  .player-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6d2dbb;
+    margin: 6px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  
+  .list-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  
+  .rank {
+    font-weight: bold;
+    color: gold;
+    width: 25px;
+    text-align: center;
+  }
+  
+  .name {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
